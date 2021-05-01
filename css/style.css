@@ -1,0 +1,19 @@
+
+h1 {
+    background-color: beige;
+}
+
+footer {
+    background-color: beige;
+}
+
+.left{
+    justify-content: left;
+}
+
+.wrapper{
+    justify-content: center;
+}
+
+
+
