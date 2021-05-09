@@ -1,0 +1,48 @@
+html, body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header, footer{
+    background-color: #8BBBD9;
+}
+
+.navbar{
+    float: right;
+    display: inline-flex;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+h1{
+    color: #274B59;
+    font: bold;
+
+}
+
+h2{
+    color: #224022;
+    font: bold;
+}
+
+p {
+    color:  #122140;
+    font-family: 'Open Sans', sans-serif
+}
+
+.sample img {
+    width: 200px;
+    height: auto;
+}
+
+.navtab {
+    padding: 5px 20px;
+    margin-top: -3rem;
+}
+
+a {
+    color: #274B59;
+    text-decoration: none;
+}
