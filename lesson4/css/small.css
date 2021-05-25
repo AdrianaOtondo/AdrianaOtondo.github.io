@@ -21,7 +21,7 @@ nav {
 	text-decoration: none;
 	font-weight: 700;
 }
-.navigation a:hover, .burg:hover {
+.navigation a:hover {
 	color: white;
 }
 
