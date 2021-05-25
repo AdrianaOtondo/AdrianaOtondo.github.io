@@ -5,6 +5,7 @@ html, body{
     
 header, footer{
         background-color: #8BBBD9;
+        text-align: center;
     }
 .navigation {
 		display: flex;
@@ -19,6 +20,11 @@ header, footer{
 .navigation li:first-child {
 		display: none;
 	}
+
+.burg{
+    display: none; 
+}
+
 .navigation a:hover {
         color: white;
     }  
@@ -30,10 +36,13 @@ header, footer{
 .logo img {
     width: 100px;
     height: auto;
+    margin-left: -100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .bigTitle{
-    margin-left: 150px;
+    margin-left: 110px;
     margin-top: -70px;
 }
 
@@ -46,6 +55,11 @@ h1{
 h2{
     color: #224022;
     font: bold;
+}
+
+h3{
+    background-color: lightgrey;
+    padding: 10px;
 }
 
 p {
@@ -61,4 +75,11 @@ a {
     color: #274B59;
     text-decoration: none;
 }
+
+#content {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+  }
+
 }
