@@ -75,7 +75,45 @@
         color: #274B59;
         text-decoration: none;
     }
+
+    .heroImg img{
+        width: 1200px;
+        height: 500px;
+    }
+
+    .fore img{
+        width: 500px;
+        height: auto;
+    }
+
+    .article{
+        background-color: lightgrey;
+        background-size: cover;
+    }
     
+    .article img{
+      float: right;
+      width: 350px;
+      height: auto;
+      padding: 20px;
+    }
+
+    .contact{
+        background-color: lightgrey;
+    }
+
+    .contact img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* .contact img{
+        float: left;
+        width: 300px;
+        height: auto;
+        padding: 20px;
+    } */
+
     #content {
         max-width: 1200px;
         margin: auto;
