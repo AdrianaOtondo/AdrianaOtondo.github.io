@@ -101,18 +101,18 @@
     .contact{
         background-color: lightgrey;
     }
-
-    .contact img {
-        max-width: 100%;
-        height: auto;
+    
+    .info{
+        display: block;
     }
 
-    /* .contact img{
+    .contact img{
         float: left;
-        width: 300px;
+        width: 200px;
         height: auto;
+        margin-top: -50px;
         padding: 20px;
-    } */
+    } 
 
     #content {
         max-width: 1200px;

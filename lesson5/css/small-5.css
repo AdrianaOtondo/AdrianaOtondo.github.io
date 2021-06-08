@@ -75,6 +75,39 @@
         color:  #122140;
         font-family: 'Open Sans', sans-serif
     }
+
+    .heroImg img{
+        width: 400px;
+        height: 200px;
+    }
+
+    .fore {
+        display: none;
+    }
+
+    .article{
+        background-color: lightgrey;
+        background-size: cover;
+    }
+    
+    .article img{
+      width: 220px;
+      height: auto;
+      padding: 10px;
+    }
+
+    .contact{
+        background-color: lightgrey;
+    }
+    
+    .info{
+        display: block;
+    }
+
+    .contact img{
+       display: none;
+    } 
+
     
     #content {
         max-width: 400px;
