@@ -2,9 +2,9 @@
 <html lang="en-us">
 <head>
   <title>Preston</title>
-  <link href="./css/large-5.css" rel="stylesheet"/>
-  <link href="./css/small-5.css" rel="stylesheet"/>
-  <script src="./js/preston-5.js" type="text/javascript"></script>
+  <link href="./css/large-6.css" rel="stylesheet"/>
+  <link href="./css/small-6.css" rel="stylesheet"/>
+  <script src="./js/preston-6.js" type="text/javascript"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:ital,wght@1,300;1,500&display=swap" rel="stylesheet">
   
@@ -32,7 +32,14 @@
     </header>
     <main>
         <h1>Preston Idaho</h1>
-        <div class="heroImg"><img src ="./images/pexels-santiago-boada-5032327.jpg"/></div>
+        <picture class="heroImg">
+          <source media="(max-width: 200px)" srcset="./images/wdd230_200px.jpg">
+          <source media="(max-width: 500px)" srcset="./images/wdd230_500px.jpg">
+          <source media="(max-width: 800px)" srcset="./images/wdd230_800px.jpg">
+          <source media="(max-width: 1000px)" srcset="./images/wdd230_1000px.jpg">
+          <source media="(max-width: 1200px)" srcset="./images/wdd230_1200px.jpg">
+          <img src ="./images/pexels-santiago-boada-5032327.jpg" alt="nature"/>
+        </picture>
         <div class = "fore">
           <h2>5 day forecast</h2>
           <img src = "./images/WhatsApp Image 2021-06-05 at 8.47.58 PM.jpeg"/>
