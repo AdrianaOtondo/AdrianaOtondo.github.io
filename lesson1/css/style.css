@@ -21,8 +21,10 @@ body, html {
 }
 
 header img {
-    width: 125px;
+    width: 225px;
     height: auto;
+    float: right;
+    margin-right: 100px;
     border-radius: 10px 10px 10px 10px;
 }
 
