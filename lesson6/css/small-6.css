@@ -77,8 +77,7 @@
     }
 
     .heroImg img{
-        width: 400px;
-        height: 200px;
+        max-width: 400px;
     }
 
     .fore {
@@ -90,9 +89,8 @@
         background-size: cover;
     }
     
-    .article img{
-      width: 220px;
-      height: auto;
+    .artiIma img {
+      max-width: 50%;
       padding: 10px;
     }
 

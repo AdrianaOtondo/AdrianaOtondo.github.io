@@ -77,8 +77,8 @@
     }
 
     .heroImg img{
-        width: 1200px;
-        height: 500px;
+        display: block;
+        width: 100%;
     }
 
     .fore img{
@@ -91,10 +91,9 @@
         background-size: cover;
     }
     
-    .article img{
+    .artiIma img {
       float: right;
-      width: 350px;
-      height: auto;
+      max-width: 50%;
       padding: 20px;
     }
 
@@ -115,6 +114,7 @@
     } 
 
     #content {
+        font-family: Open-sans Roboto;
         max-width: 1200px;
         margin: auto;
         text-align: center;

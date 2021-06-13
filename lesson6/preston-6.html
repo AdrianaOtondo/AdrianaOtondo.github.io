@@ -5,8 +5,6 @@
   <link href="./css/large-6.css" rel="stylesheet"/>
   <link href="./css/small-6.css" rel="stylesheet"/>
   <script src="./js/preston-6.js" type="text/javascript"></script>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:ital,wght@1,300;1,500&display=swap" rel="stylesheet">
   
 </head>
 <body>
@@ -33,12 +31,11 @@
     <main>
         <h1>Preston Idaho</h1>
         <picture class="heroImg">
-          <source media="(max-width: 200px)" srcset="./images/wdd230_200px.jpg">
-          <source media="(max-width: 500px)" srcset="./images/wdd230_500px.jpg">
-          <source media="(max-width: 800px)" srcset="./images/wdd230_800px.jpg">
-          <source media="(max-width: 1000px)" srcset="./images/wdd230_1000px.jpg">
-          <source media="(max-width: 1200px)" srcset="./images/wdd230_1200px.jpg">
-          <img src ="./images/pexels-santiago-boada-5032327.jpg" alt="nature"/>
+          <source media="(min-width: 1200px)" srcset="./images/wdd230_1200px.jpg">
+          <source media="(min-width: 1000px)" srcset="./images/wdd230_1000px.jpg">
+          <source media="(min-width: 800px)" srcset="./images/wdd230_800px.jpg">
+          <source media="(min-width: 500px)" srcset="./images/wdd230_500px.jpg" />
+          <img src="./images/wdd230_200px.jpg" alt="nature" />
         </picture>
         <div class = "fore">
           <h2>5 day forecast</h2>
@@ -46,7 +43,11 @@
         </div>
         <div class="article">
           <h2>Read to Travel</h2>
-          <img src ="./images/pexels-cottonbro-4827506.jpg"/>
+          <picture class="artiIma">
+            <source media="(min-width: 800px)" srcset="./images/reading_800px.jpg" /> 
+            <source media="(min-width: 500px)" srcset="./images/reading_500px.jpg" /> 
+          <img src ="./images/reading_200px.jpg" alt="people reading"/>
+          </picture>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic consequatur temporibus excepturi dolorem magnam quae deserunt suscipit impedit aut explicabo alias autem nesciunt, corrupti accusantium sit iste! Rem, magnam quae?</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic consequatur temporibus excepturi dolorem magnam quae deserunt suscipit impedit aut explicabo alias autem nesciunt, corrupti accusantium sit iste! Rem, magnam quae?</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic consequatur temporibus excepturi dolorem magnam quae deserunt suscipit impedit aut explicabo alias autem nesciunt, corrupti accusantium sit iste! Rem, magnam quae?</p>
@@ -70,6 +71,11 @@
       <p>2021 | Adriana Otondo Anzoelaga | Bolivia | BYU Online Learning</p>
     </footer>
   </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>
+    WebFont.load({google: {families: ['Roboto']}});
+  </script>
 
 </body>
 </html>  
