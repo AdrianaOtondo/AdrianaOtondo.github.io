@@ -1,3 +1,10 @@
-main{
+main {
+    display: block;
+    text-align: center;
+}
+
+.imageList picture img{
+    display: block;
+    margin: auto auto;
     text-align: center;
 }

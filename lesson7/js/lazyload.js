@@ -21,12 +21,12 @@ window.onload = () => {
          items.forEach((item) => {
              if(item.isIntersecting) {
                  loadImages(item.target);
-                 imageObserver.unobserve(item.target);
+                 imgObserver.unobserve(item.target);
              }
          });
      }, imageOptions);
      loadingImag.forEach((img) => {
-         imageObserver.observe(img);
+         imgObserver.observe(img);
      });
  } else {
      loadingImag.forEach((img) => {
