@@ -1,0 +1,141 @@
+@media only screen and (min-width: 76.5em) {
+    html, body{
+            font-family: 'Roboto', sans-serif;
+        }
+        
+    header, footer{
+            background-color: #8BBBD9;
+            text-align: center;
+        }
+    .navigation {
+            display: flex;
+        }
+    .navigation li {
+            display: block;  
+            flex: 1 1 auto;
+        }
+    .navigation a {
+            text-align: center;
+        }
+    .navigation li:first-child {
+            display: none;
+        }
+    
+    .burg{
+        display: none; 
+    }
+    
+    .navigation a:hover {
+            color: white;
+        }  
+    
+    .navtab {
+            padding: 5px 20px;
+        }
+        
+    .logo img {
+        width: 100px;
+        height: auto;
+        margin-left: -100px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .bigTitle{
+        margin-left: 110px;
+        margin-top: -70px;
+    }
+    
+    h1{
+        color: #274B59;
+        font: bold;
+    
+    }
+    
+    h2{
+        color: #224022;
+        font: bold;
+    }
+    
+    h3{
+        background-color: lightgrey;
+        padding: 10px;
+    }
+    
+    p {
+        color:  #122140;
+        font-family: 'Open Sans', sans-serif
+    }
+    
+    li {
+        padding: 1.5em;
+    }
+    
+    a {
+        color: #274B59;
+        text-decoration: none;
+    }
+
+
+    .contact{
+        background-color: lightgrey;
+    }
+    
+    .info{
+        display: block;
+    }
+
+    .contact img{
+        float: left;
+        width: 200px;
+        height: auto;
+        margin-top: -50px;
+        padding: 20px;
+    } 
+
+    #content {
+        font-family: Open-sans Roboto;
+        max-width: 1200px;
+        margin: auto;
+        text-align: center;
+      }
+
+    .order{
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(3, 390px);
+        grid-gap: 10px;
+        grid-template-rows: repeat(2, 300px);
+    }
+
+    .city{
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .storm{
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .reinbow{
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+    .sun{
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .rain{
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .green{
+        grid-column: 3;
+        grid-row: 2;
+    }
+    
+    }

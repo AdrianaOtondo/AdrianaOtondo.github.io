@@ -1,8 +1,5 @@
 window.onload = () => {
-    console.log('READY'); 
-    console.log(document.querySelectorAll('.myImage'));
-    console.log(document.querySelectorAll('img[data-src]'));
-}
+
  let loadingImag = document.querySelectorAll("img[data-src]");
  const imageOptions = {
      threshold: 1,
@@ -33,3 +30,4 @@ window.onload = () => {
          loadImages(img);
      });
  }
+}
