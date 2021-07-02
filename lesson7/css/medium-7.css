@@ -1,35 +1,4 @@
-div.hola {
-    display: none;
-}
-
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    div.hola {
-        display: block;
-    }
-}
-
-@media only screen 
-  and (min-width: 320px) 
-  and (max-width: 480px)
-{
-    div.hola {
-        display: block;
-    }
-}
-
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-    div.hola {
-        display: none;
-    }
-}
-
-/* @media only screen and (max-width: 50em){
+@media only screen and (min-device-width: 813px) and (max-device-width: 1190px) {
     nav {
         margin: 0 auto;
         max-width: 750px;
@@ -55,23 +24,20 @@ div.hola {
     .navigation a:hover {
         color: white;
     }
-    
-    header, footer{
+    header,
+    footer {
         background-color: #8BBBD9;
         text-align: center;
     }
-    
-    .bigTitle{
+    .bigTitle {
         margin-left: 100px;
         margin-top: -50px;
     }
-    
-    h1{
+    h1 {
         color: #274B59;
         font: bold;
     }
-    
-    h3{
+    h3 {
         background-color: lightgrey;
         padding: 10px;
     }
@@ -89,80 +55,63 @@ div.hola {
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    
-    .burg{
+    .burg {
         margin: .2rem 2%;
         background-color: transparent;
         border: none;
         font-size: 1.6rem;
         color: #274B59;
     }
-    
-    nav ul.hide{
+    nav ul.hide {
         display: none;
     }
-    
     p {
-        color:  #122140;
+        color: #122140;
         font-family: 'Open Sans', sans-serif
     }
-
-
-    .contact{
+    .contact {
         background-color: lightgrey;
     }
-    
-    .info{
+    .info {
         display: block;
     }
-
-    .contact img{
-       display: none;
-    } 
-
-    
+    .contact img {
+        display: none;
+    }
     #content {
         max-width: 650px;
         margin: auto;
         text-align: center;
-      }
-
-    .order{
+    }
+    .order {
         text-align: center;
         display: grid;
         grid-template-columns: repeat(2, 600px);
         grid-gap: 10px;
         grid-template-rows: repeat(3, 250px);
     }
-
-    .city{
+    .city {
         grid-column: 1;
         grid-row: 1;
     }
-
-    .storm{
+    .storm {
         grid-column: 2;
         grid-row: 1;
     }
-
-    .reinbow{
+    .reinbow {
         grid-column: 1;
         grid-row: 2;
     }
-
-    .sun{
+    .sun {
         grid-column: 2;
         grid-row: 2;
     }
-
-    .rain{
+    .rain {
         grid-column: 1;
         grid-row: 3;
     }
-
-    .green{
+    .green {
         grid-column: 2;
         grid-row: 3;
     }
-    
-    } */
+}

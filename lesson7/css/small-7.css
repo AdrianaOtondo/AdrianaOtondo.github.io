@@ -1,4 +1,13 @@
-@media only screen and (max-width: 32.4em){
+@media only screen and (min-device-width: 320px) 
+                   and (max-device-width: 480px) 
+                   and (max-device-width: 568px)
+                   and (min-device-width: 375px) 
+                   and (max-device-width: 667px) 
+                   and (min-device-width: 414px) 
+                   and (max-device-width: 736px)
+                   and (min-device-width: 375px) 
+                   and (max-device-width: 812px)
+   {
     nav {
         margin: 0 auto;
         max-width: 760px;
