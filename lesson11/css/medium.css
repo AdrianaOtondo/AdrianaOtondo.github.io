@@ -79,14 +79,14 @@
         display: none;
     }
     #content {
-        max-width: 650px;
+        max-width: 800px;
         margin: auto;
         text-align: center;
     }
     .order {
         text-align: center;
         display: grid;
-        grid-template-columns: repeat(2, 600px);
+        grid-template-columns: repeat(2, 350px);
         grid-gap: 7px;
         grid-template-rows: repeat(3, 250px);
     }
