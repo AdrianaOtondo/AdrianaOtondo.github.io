@@ -1,7 +1,7 @@
 @media only screen and (min-device-width: 813px) and (max-device-width: 1190px) and (min-width: 813px) and (max-width: 1190px) {
     nav {
         margin: 0 auto;
-        max-width: 750px;
+        max-width: 800px;
     }
     .navigation {
         list-style: none;
@@ -87,7 +87,7 @@
         text-align: center;
         display: grid;
         grid-template-columns: repeat(2, 600px);
-        grid-gap: 10px;
+        grid-gap: 7px;
         grid-template-rows: repeat(3, 250px);
     }
     .city {
