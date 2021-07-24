@@ -1,0 +1,39 @@
+{
+    "restaurants": [{
+            "name": "Piquemanta",
+            "phone": "+591 69435890",
+            "facebook": "https://www.facebook.com/piquemanta/",
+            "logo": "./images/logoPiquemanta.jpg"
+        },
+        {
+            "name": "Jacaranda",
+            "phone": "+591 65343085",
+            "facebook": "https://www.facebook.com/Jacaranda.Rest",
+            "logo": "./images/logoPiquemanta.jpg"
+        },
+        {
+            "name": "Tunari",
+            "phone": "+591 67404870",
+            "facebook": "https://www.facebook.com/tunariheroinas",
+            "logo": "./images/logoPiquemanta.jpg"
+        },
+        {
+            "name": "El Placio del Silpancho",
+            "phone": "4222732",
+            "facebook": "https://www.facebook.com/el.palacio.del.sillpancho.oficial/",
+            "logo": "./images/logoPiquemanta.jpg"
+        },
+        {
+            "name": "Sandwich de Chola Paulita",
+            "phone": "Sorry, we don't have the information",
+            "facebook": "https://www.facebook.com/SandwichdeCholaPaulita",
+            "logo": "./images/logoPiquemanta.jpg"
+        },
+        {
+            "name": "Los Chicharrones Originales",
+            "phone": "Sorry, we don't have the information",
+            "facebook": "https://www.facebook.com/ChicharronesOriginales",
+            "logo": "./images/logoPiquemanta.jpg"
+        }
+    ]
+}
