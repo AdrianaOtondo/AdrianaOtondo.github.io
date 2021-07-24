@@ -59,4 +59,7 @@
         color: #353535;
         text-decoration: none;
     }
+    body {
+        text-align: center;
+    }
 }
