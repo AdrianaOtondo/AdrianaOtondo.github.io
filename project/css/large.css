@@ -1,4 +1,4 @@
-@media only screen and (min-widht: 60em) {
+@media only screen and (min-width: 60em) {
     html,
     body {
         font-family: 'Roboto', sans-serif;
@@ -6,7 +6,6 @@
     header,
     footer {
         background-color: #DC9596;
-        border-block-color: #DC9596;
     }
     header {
         text-align: left;
