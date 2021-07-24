@@ -6,6 +6,7 @@
     header,
     footer {
         background-color: #DC9596;
+        border-block-color: #DC9596;
     }
     header {
         text-align: left;
