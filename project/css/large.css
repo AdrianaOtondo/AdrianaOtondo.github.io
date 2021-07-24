@@ -35,11 +35,11 @@
     .logo img {
         width: 100px;
         height: auto;
-        float: left;
+        margin-left: 40px;
     }
     .bigTitle {
         margin-left: 110px;
-        margin-top: -70px;
+        margin-top: 10px;
     }
     h1 {
         color: #353535;
@@ -56,10 +56,14 @@
         padding: 1.5em;
     }
     a {
-        color: #353535;
+        color: #7d70ba;
         text-decoration: none;
     }
-    body {
+    .cards {
+        background-color: #add9f4;
         text-align: center;
+    }
+    main {
+        background-color: #add9f4;
     }
 }
