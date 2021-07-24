@@ -1,0 +1,70 @@
+@media only screen and (min-widht: 32em) {
+    html,
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+    header,
+    footer {
+        background-color: #DC9596;
+    }
+    header {
+        text-align: left;
+    }
+    .navigation {
+        list-style: none;
+        display: flex;
+    }
+    .navigation li {
+        display: none;
+    }
+    .navigation a {
+        display: block;
+        padding: 0.75rem;
+        text-decoration: none;
+        text-align: center;
+    }
+    .navigation li:first-child {
+        display: block;
+        position: static;
+    }
+    .burg {
+        margin: .2rem 2%;
+        background-color: transparent;
+        border: none;
+        font-size: 1.6rem;
+        color: #353535;
+    }
+    .navigation a:hover {
+        color: #E2EB98;
+    }
+    .navtab {
+        padding: 5px 20px;
+    }
+    .logo img {
+        width: 100px;
+        height: auto;
+        float: left;
+    }
+    .bigTitle {
+        margin-left: 110px;
+        margin-top: -70px;
+    }
+    h1 {
+        color: #353535;
+        font: bold;
+    }
+    h2 {
+        color: #7d70ba;
+        font: bold;
+    }
+    p {
+        color: #353535;
+    }
+    li {
+        padding: 1.5em;
+    }
+    a {
+        color: #353535;
+        text-decoration: none;
+    }
+}
